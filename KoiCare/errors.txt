@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 56: reached end of line when expecting ':'.
+    if not pumpOn
+                 ^
+
+File "game/script.rpy", line 58: expected statement.
+    else:
+        ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Wed Jun  4 16:40:22 2025

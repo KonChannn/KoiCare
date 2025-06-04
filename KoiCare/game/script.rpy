@@ -1,33 +1,94 @@
 ﻿# The script of the game goes in this file.
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+define DEFAULT_TIME = 50
+define DEATH_TIME = 30
+define LVL1_MOVES = 5
 
-define e = Character("Eileen")
+define pumpOn = True
+define fishHealthy = True
+define fishHungry = False
+define time = DEFAULT_TIME
+define counter = 0
 
+# Logic Timer
+screen timerr:
+    timer 1 repeat True action [
+        SetVariable("time", time - 1),
+        SetVariable("fishHealthy", time - 1 > 40),
+        If(time - 1 <= 0, [Hide("timerr"), Jump("end")])
+    ]
+    text str(time) xalign 0.95
+    
+# Status Ikan
+screen fish_status:
+    if fishHealthy:
+        text "Ikan Sehat" at topleft as text2
+    else:
+        text "Ikan Sakit" at topleft as text2
 
 # The game starts here.
 
 label start:
+    "Sebelum berangkat ke kampus, aku harus memastikan ikan di rumah tetap sehat."
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    jump lvl1
 
+
+label lvl1:
     scene bg room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    # If the player has done a set amount of actions, proceed to the next scene
+    if counter == LVL1_MOVES:
+        "Whoops, Aku harus segera pergi ke kampus!"
+        $ counter = 0
+        jump end
 
-    show eileen happy
+    # Prints the Timer on the screen
+    if pumpOn == False:
+        show screen timerr
+    else:
+        hide screen timerr
+        $ time = DEFAULT_TIME
 
-    # These display lines of dialogue.
+    # Prints the status of pump
+    if pumpOn:
+        show text "Pompa Air Hidup" at top as text1
+    else:
+        show text "Pompa Air Mati" at top as text1 
+    
+    show screen fish_status
 
-    e "You've created a new Ren'Py game."
+    menu:
+        "What Should I do?"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+        "Beri Makan":
+            "Makan Diberikan"
+            
+        "Cek Kualitas Air":
+            if not pumpOn:
+                "Air Kotor"
+                "Waduh, Pompanya Mati!"
+            else:
+                "Air Bersih"
+        
+        "Nyalakan Pompa Air" if not pumpOn:
+            "Pompa Air Menyala"
+            $ pumpOn = True
+            $ fishHealthy = True
+        
+        "Matikan Pompa Air" if pumpOn:
+            "Pompa Air Mati"
+            $ pumpOn = False
 
-    # This ends the game.
+    
+    $ counter += 1
+    jump lvl1
 
+label end:
+
+    if not fishHealthy:
+        "Ikan Mati"
+    else:
+        "Hari Berakhir"
+    
     return
