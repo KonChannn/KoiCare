@@ -1,18 +1,17 @@
-2025-06-04 12:40:03 UTC
+2025-06-10 17:10:07 UTC
 Linux-6.6.54-2-MANJARO-x86_64-with-glibc2.40
 Ren'Py 8.3.7.25031702
 
-Early init took 0.04s
-Loading error handling took 0.10s
-Loading script took 0.70s
+Early init took 0.05s
+Loading error handling took 0.03s
+Loading script took 0.19s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.05s
+Running init code took 0.04s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.01s
 Index archives took 0.00s
-Backing up script files to '/home/steveng/.renpy/backups/KoiCare':
 Dump and make backups took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -22,14 +21,14 @@ Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.34s
+Interface start took 0.35s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -40,4 +39,6 @@ Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.54, 6.6.54
 Version: b'4.6 (Compatibility Profile) Mesa 24.2.4-arch1.0.1'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1015) drawable=(1920, 1015)
 Maximum texture size: 4096x4096

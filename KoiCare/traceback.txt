@@ -1,28 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Code\\Renpy\\KoiCare\\KoiCare\\game\\saves\\persistent'
+  File "game/main_loop.rpy", line 47, in script
+    menu:
+TypeError: 'NoneType' object is not subscriptable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\main.py", line 666, in main
-    renpy.persistent.update(True)
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\persistent.py", line 434, in update
-    save()
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\persistent.py", line 456, in save
-    renpy.loadsave.location.save_persistent(compressed)
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\savelocation.py", line 622, in save_persistent
-    l.save_persistent(data)
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\savelocation.py", line 430, in save_persistent
-    safe_rename(fn_new, fn)
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\loadsave.py", line 303, in safe_rename
-    os.unlink(new)
-PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Code\\Renpy\\KoiCare\\KoiCare\\game\\saves\\persistent'
+  File "game/main_loop.rpy", line 47, in script
+    menu:
+  File "/home/steveng/renpy-8.3.7-sdk/renpy/ast.py", line 1635, in execute
+    next_node(self.items[choice][2][0])
+TypeError: 'NoneType' object is not subscriptable
 
-Windows-10-10.0.26100 AMD64
+Linux-6.6.54-2-MANJARO-x86_64-with-glibc2.40 x86_64
 Ren'Py 8.3.7.25031702
 KoiCare 1.0
-Wed Jun  4 16:48:09 2025
+Wed Jun 11 00:01:56 2025
