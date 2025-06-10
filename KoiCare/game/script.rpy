@@ -20,7 +20,7 @@ label start:
 # Introduction Scene
 label intro:
     $ gameState = "intro"
-    scene bg room
+    scene black
     
     "Welcome to KoiCare - Your Koi Fish Care Simulator!"
     "In this game, you'll learn how to take care of your koi fish."

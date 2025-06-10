@@ -55,5 +55,8 @@ init python:
         def get_state_description(self):
             return self.states[self.current_state]["description"]
 
+        def get_state(self):
+            return self.current_state
+
         def is_alive(self):
             return self.health > 0 

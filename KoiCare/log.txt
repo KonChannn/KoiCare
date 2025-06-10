@@ -1,44 +1,54 @@
-2025-06-10 17:10:07 UTC
-Linux-6.6.54-2-MANJARO-x86_64-with-glibc2.40
+2025-06-10 19:48:37 UTC
+Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.05s
-Loading error handling took 0.03s
+Early init took 0.09s
+Loading error handling took 0.04s
 Loading script took 0.19s
-Loading save slot metadata took 0.02s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
+Running init code took 0.06s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
-Dump and make backups took 0.04s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.73s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.04s
 Running _start took 0.00s
-Interface start took 0.35s
+Interface start took 0.95s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 18.1.8, DRM 3.54, 6.6.54-2-MANJARO)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.2.4-arch1.0.1'
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1015) drawable=(1920, 1015)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

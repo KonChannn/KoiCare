@@ -6,6 +6,12 @@ init python:
     fish_fsm = FishFSM()
     pond_fsm = PondFSM()
 
+image koiNormal = "koi_normal.png"
+image koiSick = "koi_sick.png"
+image koiSad = "koi_sad.png"
+image koiHappy = "koi_happy.png"
+image koiDead = "koi_dead.png"
+
 # Time Cycle Timer Screen
 screen time_cycle:
     text "[time_fsm.current_state.title()] - Time Remaining: [time_fsm.time_remaining]" xalign 0.5 yalign 0.05
@@ -23,7 +29,7 @@ screen game_status:
 # Main Game Loop
 label day_loop:
     $ gameState = "day_loop"
-    scene bg room
+    scene bg aquarium
     
     "Day [time_fsm.day_number] - [time_fsm.current_state.title()]"
     
@@ -40,9 +46,17 @@ label day_loop:
     $ fish_fsm.apply_effects()
     $ pond_fsm.apply_effects()
 
+    if fish_fsm.current_state == "normal":
+        show koiNormal at truecenter
+    elif fish_fsm.current_state == "sick":
+        show koiSick at truecenter
+    elif fish_fsm.current_state == "healthy":
+        show koiHappy at truecenter
+
     menu:
         "Beri Makan":
             if money >= FEEDING_COST:
+                scene bg feed
                 $ money -= FEEDING_COST
                 $ fish_fsm.feed()
                 "Makan Diberikan"
@@ -101,6 +115,7 @@ label ending:
     $ gameState = "ending"
     
     if not fish_fsm.is_alive():
+        show koiDead at truecenter
         "Game Over!"
         "Your koi fish has died due to poor care."
         "You survived for [time_fsm.day_number] days."

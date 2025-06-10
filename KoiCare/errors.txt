@@ -2,29 +2,9 @@
 errors listed below, and try again.
 
 
-The label day_loop is defined twice, at File "game/main_loop.rpy", line 28:
-label day_loop:
-and File "game/tutorial.rpy", line 38:
-label day_loop:
-
-
-The label advance_time is defined twice, at File "game/main_loop.rpy", line 80:
-label advance_time:
-and File "game/tutorial.rpy", line 90:
-label advance_time:
-
-
-The label end_of_day is defined twice, at File "game/main_loop.rpy", line 89:
-label end_of_day:
-and File "game/tutorial.rpy", line 99:
-label end_of_day:
-
-
-The label ending is defined twice, at File "game/main_loop.rpy", line 106:
-label ending:
-and File "game/tutorial.rpy", line 116:
-label ending:
-
+File "game/main_loop.rpy", line 118: expected 'image_name_component' not found.
+    show 
+         ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Tue Jun 10 23:58:54 2025
+Wed Jun 11 02:38:30 2025
