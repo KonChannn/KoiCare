@@ -6,6 +6,9 @@ init python:
     fish_fsm = FishFSM()
     pond_fsm = PondFSM()
 
+transform koiSize:
+    zoom 0.7
+
 image koiNormal = "koi_normal.png"
 image koiSick = "koi_sick.png"
 image koiSad = "koi_sad.png"
@@ -14,23 +17,36 @@ image koiDead = "koi_dead.png"
 
 # Time Cycle Timer Screen
 screen time_cycle:
-    text "[time_fsm.current_state.title()] - Time Remaining: [time_fsm.time_remaining]" xalign 0.5 yalign 0.05
+    text "[time_fsm.current_state.title()] - Turns Remaining: [time_fsm.time_remaining]" xalign 0.5 yalign 0.05
+    
 
 # Status Display Screen
 screen game_status:
-    vbox:
+    frame:
+        background Solid((0, 0, 0, 180))
         xalign 0.95
         yalign 0.05
-        text "Day: [time_fsm.day_number]"
-        text "Money: $[money]"
-        text "Fish Health: [fish_fsm.health]%"
-        text "Water Quality: [pond_fsm.water_quality]%"
+        vbox:
+            text "Day: [time_fsm.day_number]"
+            text "Money: $[money]"
+            text "Fish Health: [fish_fsm.health]%"
+            text "Water Quality: [pond_fsm.water_quality]%"
 
 # Main Game Loop
 label day_loop:
     $ gameState = "day_loop"
     scene bg aquarium
-    
+
+    if fish_fsm.current_state == "normal":
+        show koiNormal at truecenter, koiSize
+        with dissolve
+    elif fish_fsm.current_state == "sick":
+        show koiSick at truecenter, koiSize
+        with dissolve
+    elif fish_fsm.current_state == "healthy":
+        show koiHappy at truecenter, koiSize
+        with dissolve
+
     "Day [time_fsm.day_number] - [time_fsm.current_state.title()]"
     
     # Show game status and time cycle
@@ -45,13 +61,6 @@ label day_loop:
     $ time_fsm.apply_time_effects(fish_fsm, pond_fsm)
     $ fish_fsm.apply_effects()
     $ pond_fsm.apply_effects()
-
-    if fish_fsm.current_state == "normal":
-        show koiNormal at truecenter
-    elif fish_fsm.current_state == "sick":
-        show koiSick at truecenter
-    elif fish_fsm.current_state == "healthy":
-        show koiHappy at truecenter
 
     menu:
         "Beri Makan":
@@ -81,8 +90,13 @@ label day_loop:
         "Advance Time":
             $ time_fsm.time_remaining = 0
             jump advance_time
-    
-    jump day_loop
+
+    $ time_fsm.decrement_time()
+    if time_fsm.get_time_remaining() <= 0:
+        "Waktu untuk hari ini telah habis."
+        jump advance_time
+    else:
+        jump day_loop
 
 # Time Advancement
 label advance_time:

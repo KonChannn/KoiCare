@@ -1,20 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/main_loop.rpy", line 47, in script
-    menu:
-TypeError: 'NoneType' object is not subscriptable
+  File "game/main_loop.rpy", line 3, in script
+    init python:
+  File "game/main_loop.rpy", line 5, in <module>
+    time_fsm = TimeFSM()
+  File "game/fsm/time_fsm.rpy", line 45, in __init__
+    self.time_remaining = self.states["morning"]["duration"]
+KeyError: 'morning'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/main_loop.rpy", line 47, in script
-    menu:
-  File "/home/steveng/renpy-8.3.7-sdk/renpy/ast.py", line 1635, in execute
-    next_node(self.items[choice][2][0])
-TypeError: 'NoneType' object is not subscriptable
+  File "game/main_loop.rpy", line 3, in script
+    init python:
+  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/main_loop.rpy", line 5, in <module>
+    time_fsm = TimeFSM()
+  File "game/fsm/time_fsm.rpy", line 45, in __init__
+    self.time_remaining = self.states["morning"]["duration"]
+KeyError: 'morning'
 
-Linux-6.6.54-2-MANJARO-x86_64-with-glibc2.40 x86_64
+Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.7.25031702
 KoiCare 1.0
-Wed Jun 11 00:01:56 2025
+Wed Jun 11 15:08:49 2025

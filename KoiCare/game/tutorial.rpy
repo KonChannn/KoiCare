@@ -3,33 +3,33 @@
 # Tutorial Scene
 label tutorial:
     $ gameState = "tutorial"
-    scene bg room
+    scene black
     
-    "Let's learn the basics of koi fish care!"
+    "Mari pelajari dasar-dasar perawatan ikan Koi."
     
-    "1. Fish Health:"
-    "   - Keep your fish healthy by feeding it regularly"
-    "   - Monitor its health status"
-    "   - Healthy fish are happy fish!"
+    "1. Kesehatan Ikan:"
+    "   - Jaga kesehatan ikan Anda dengan memberinya makan secara teratur"
+    "   - Pantau kesehatan ikan secara rutin"
+    "   - Ikan yang sehat adalah ikan yang bahagia!"
     
-    "2. Water Quality:"
-    "   - Maintain good water quality using the pump"
-    "   - Check water quality regularly"
-    "   - Clean water means healthy fish!"
+    "2. Kualitas Air:"
+    "   - Menjaga kualitas air yang baik dengan menggunakan pompa air"
+    "   - Periksa kualitas air secara teratur"
+    "   - Air bersih berarti ikan yang sehat!"
     
-    "3. Money Management:"
-    "   - You start with $[STARTING_MONEY]"
-    "   - Feeding costs $[FEEDING_COST]"
-    "   - You get $20 daily allowance"
-    "   - Spend wisely!"
+    "3. Manajemen Uang:"
+    "   - Anda mulai dengan $[STARTING_MONEY]"
+    "   - Harga Pakan Ikan $[FEEDING_COST]"
+    "   - Anda mendapatkan uang saku harian sebesar $20"
+    "   - Belanjakan dengan bijak!"
     
-    "4. Time Management:"
-    "   - Each day has four phases: Morning, Afternoon, Evening, and Night"
-    "   - Plan your actions carefully for each phase"
-    "   - Don't forget to check on your fish!"
+    "4. Manajemen Waktu:"
+    "   - Setiap hari memiliki empat fase: Pagi, Siang, Sore, dan Malam"
+    "   - Rencanakan tindakan Anda dengan hati-hati untuk setiap fase"
+    "   - Jangan lupa untuk memeriksa ikan Anda!"
     
     menu:
-        "I understand":
+        "Saya Mengerti":
             jump day_loop
-        "Show me again":
+        "Jelaskan Ulang":
             jump tutorial 

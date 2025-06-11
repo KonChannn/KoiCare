@@ -4,45 +4,45 @@ init python:
     class TimeFSM:
         def __init__(self):
             self.states = {
-                "morning": {
-                    "next": "afternoon",
-                    "duration": 20,
-                    "description": "The sun rises, bringing a new day.",
+                "pagi": {
+                    "next": "siang",
+                    "duration": 5,
+                    "description": "Matahari terbit, membawa hari yang baru.",
                     "effects": {
                         "fish_health": -5,  # Fish gets hungry overnight
                         "water_quality": 0
                     }
                 },
-                "afternoon": {
-                    "next": "evening",
-                    "duration": 20,
-                    "description": "The sun is high in the sky.",
+                "siang": {
+                    "next": "sore",
+                    "duration": 5,
+                    "description": "Matahari sudah tinggi di langit.",
                     "effects": {
                         "fish_health": 0,
                         "water_quality": -10  # Water gets dirty during day
                     }
                 },
-                "evening": {
-                    "next": "night",
-                    "duration": 20,
-                    "description": "The sun begins to set.",
+                "sore": {
+                    "next": "malam",
+                    "duration": 3,
+                    "description": "Matahari mulai terbenam.",
                     "effects": {
                         "fish_health": -3,  # Fish gets tired
                         "water_quality": -5
                     }
                 },
-                "night": {
-                    "next": "morning",
-                    "duration": 20,
-                    "description": "The moon rises, bringing darkness.",
+                "malam": {
+                    "next": "pagi",
+                    "duration": 2,
+                    "description": "Bulan terbit, membawa kegelapan.",
                     "effects": {
                         "fish_health": -2,
                         "water_quality": -5  # Water quality decreases at night
                     }
                 }
             }
-            self.current_state = "morning"
-            self.time_remaining = self.states["morning"]["duration"]
+            self.current_state = "pagi"
+            self.time_remaining = self.states["pagi"]["duration"]
             self.day_number = 1
 
         def advance_time(self):
@@ -50,7 +50,7 @@ init python:
             self.current_state = current["next"]
             self.time_remaining = self.states[self.current_state]["duration"]
             
-            if self.current_state == "morning":
+            if self.current_state == "pagi":
                 self.day_number += 1
                 return True  # Signal that a new day has started
             return False
@@ -62,8 +62,9 @@ init python:
             return self.time_remaining
 
         def decrement_time(self):
-            self.time_remaining -= 1
-            return self.time_remaining <= 0
+            if self.time_remaining > 0:
+                self.time_remaining -= 1
+                return self.time_remaining <= 0
 
         def apply_time_effects(self, fish, pond):
             effects = self.states[self.current_state]["effects"]

@@ -22,12 +22,12 @@ label intro:
     $ gameState = "intro"
     scene black
     
-    "Welcome to KoiCare - Your Koi Fish Care Simulator!"
-    "In this game, you'll learn how to take care of your koi fish."
-    "Your goal is to keep your fish healthy and happy!"
+    "Selamat datang di KoiCare - Your Koi Fish Care Simulator!"
+    "Dalam game ini, Anda akan belajar cara merawat ikan koi Anda."
+    "Tujuan Anda adalah menjaga ikan Anda tetap sehat dan bahagia!"
     
     menu:
-        "Start New Game":
+        "Tutorial":
             jump tutorial
         "Skip Tutorial":
             jump day_loop

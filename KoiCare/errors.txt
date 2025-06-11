@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/main_loop.rpy", line 118: expected 'image_name_component' not found.
-    show 
-         ^
+File "game/fsm/time_fsm.rpy", line 66: expected an indented block
+            self.time_remaining -= 1
+             ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed Jun 11 02:38:30 2025
+Wed Jun 11 14:07:17 2025

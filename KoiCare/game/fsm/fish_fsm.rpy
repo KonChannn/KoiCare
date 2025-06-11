@@ -14,7 +14,7 @@ init python:
                 },
                 "normal": {
                     "threshold": 40,
-                    "description": "Ikan dalam kondisi baik.",
+                    "description": "Ikan terlihat sedikit lapar.",
                     "effects": {
                         "health_decay": -2,
                         "happiness": 0

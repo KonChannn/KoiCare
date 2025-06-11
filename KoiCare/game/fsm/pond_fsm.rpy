@@ -53,6 +53,9 @@ init python:
             self.pump_on = not self.pump_on
             return self.pump_on
 
+        def get_state(self):
+            return self.current_state
+
         def get_state_description(self):
             return self.states[self.current_state]["description"]
 
