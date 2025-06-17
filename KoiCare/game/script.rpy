@@ -8,6 +8,8 @@ define MAX_FISH_HEALTH = 100
 define MAX_WATER_QUALITY = 100
 define FEEDING_COST = 10
 define STARTING_MONEY = 100
+define MEDICINE_COST = 30
+define WATERTREAT_COST = 10
 
 # Game State Variables
 default money = STARTING_MONEY

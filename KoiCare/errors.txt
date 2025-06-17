@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/fsm/time_fsm.rpy", line 66: expected an indented block
-            self.time_remaining -= 1
-             ^
+File "game/screens.rpy", line 411: end of line expected.
+    size gui.title_text_size)
+                            ^
 
 Ren'Py Version: Ren'Py 8.3.7.25031702
-Wed Jun 11 14:07:17 2025
+Wed Jun 18 02:53:46 2025

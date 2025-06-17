@@ -1,38 +1,36 @@
-2025-06-11 08:08:49 UTC
+2025-06-17 19:25:56 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.10s
+Early init took 0.09s
 Loading error handling took 0.04s
 Loading script took 0.30s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-
-Full traceback:
-  File "game/main_loop.rpy", line 3, in script
-    init python:
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\themi\OneDrive\Documents\Renpy\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/main_loop.rpy", line 5, in <module>
-    time_fsm = TimeFSM()
-  File "game/fsm/time_fsm.rpy", line 45, in __init__
-    self.time_remaining = self.states["morning"]["duration"]
-KeyError: 'morning'
-
-While running game code:
-  File "game/main_loop.rpy", line 3, in script
-    init python:
-  File "game/main_loop.rpy", line 5, in <module>
-    time_fsm = TimeFSM()
-  File "game/fsm/time_fsm.rpy", line 45, in __init__
-    self.time_remaining = self.states["morning"]["duration"]
-KeyError: 'morning'
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start took 2.56s
+Creating interface object took 0.47s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.90s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -47,36 +45,36 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 39.06s
-Loading error handling took 0.04s
-Loading script took 0.16s
-Loading save slot metadata took 0.03s
+Early init took 40.67s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.01s
+Running init code took 0.04s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
-Dump and make backups took 0.06s
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.07s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.48s
+Creating interface object took 0.59s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 1.82s
+Interface start took 0.86s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -90,7 +88,3597 @@ Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 105.51s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 104: reached end of line when expecting ':'.
+    if 
+       ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.46s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1800, 1012) drawable=(1800, 1012)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 110.74s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 104: reached end of line when expecting ':'.
+    if money <
+              ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1800, 1012) drawable=(1800, 1012)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 115.44s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 104: reached end of line when expecting ':'.
+    if money >= 
+                ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1800, 1012) drawable=(1800, 1012)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 118.90s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 104: reached end of line when expecting ':'.
+    if money >= MEDICINE_COST
+                             ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1800, 1012) drawable=(1800, 1012)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 123.94s
+Loading error handling took 0.07s
+Loading script took 0.25s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.56s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.93s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1800, 1012) drawable=(1800, 1012)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 128.10s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 107: else clause expects a non-empty block.
+    else:
+         ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1798, 1011) drawable=(1798, 1011)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 139.06s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.89s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1798, 1011) drawable=(1798, 1011)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 141.92s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.63s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.95s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1796, 1010) drawable=(1796, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 163.30s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.52s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.94s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 165.70s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def 
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 169.06s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def 
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 175.30s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def buyItem(self, )
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 180.20s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def buyItem(self, money, )
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 181.97s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def buyItem(self, money, item)
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 185.42s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def buyItem(self, money, item)
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 187.31s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: invalid syntax
+    def buyItem(self, money, item){
+                                   ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 189.10s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: expected an indented block
+    def buyItem(self, money, item):
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 203.10s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 11: invalid syntax
+        if 
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 204.96s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 11: invalid syntax
+        if money 
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.34s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 206.94s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 11: invalid syntax
+        if money >
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 214.81s
+Loading error handling took 0.04s
+Loading script took 0.32s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 11: invalid syntax
+        if money >
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.76s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 218.73s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 11: expected an indented block
+        if money > price:
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 222.13s
+Loading error handling took 0.04s
+Loading script took 0.41s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.91s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 230.45s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 13: expected an indented block
+        else:
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.54s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 234.11s
+Loading error handling took 0.03s
+Loading script took 0.33s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+            return money -= price
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.64s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 237.88s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+            return money -= price
+                          ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 254.90s
+Loading error handling took 0.02s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.65s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 1.26s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 258.81s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.14s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.69s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 289.46s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.75s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.02s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 292.90s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.59s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 297.24s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.15s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 1.02s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 1.01s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 393.56s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.61s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.88s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 396.48s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.59s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.88s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 402.08s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 10: expected an indented block
+    def buyItem(self, money, item):
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 409.89s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.53s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.93s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 421.78s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == 
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 428.14s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 432.90s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.59s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 434.95s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 436.69s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.33s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 438.57s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 443.32s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 448.15s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 449.88s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 489.72s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 494.74s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 498.03s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 504.30s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 510.62s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 513.89s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 520.15s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.41s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 522.08s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 525.43s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.29s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 527.22s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.47s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 532.24s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.52s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 537.33s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 12: invalid syntax
+        if item == "FOOD"
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.38s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 558.94s
+Loading error handling took 0.05s
+Loading script took 0.35s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.71s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 1.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 591.97s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.78s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.05s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 618.57s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 12: expected '=' not found.
+    define WATER
+                ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 623.49s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 12: expected expression
+    define WATERTREAT_COST = 
+                             ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.39s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 625.30s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.60s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.00s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 628.72s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.58s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 631.92s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.83s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 643.30s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.59s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 648.96s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 110: reached end of line when expecting ':'.
+    if money >= 
+                ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.38s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 653.83s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 110: if statement expects a non-empty block.
+    if money >= WATERTREAT_COST:
+                                ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.42s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 655.75s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 110: if statement expects a non-empty block.
+    if money >= WATERTREAT_COST:
+                                ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.58s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 662.42s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.78s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 665.39s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.85s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 1.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 669.28s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.55s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 674.47s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.64s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 678.20s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/fsm/pond_fsm.rpy", line 66: invalid syntax
+            self.water_quality = 
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 687.78s
+Loading error handling took 0.05s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.56s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 689.98s
+Loading error handling took 0.03s
+Loading script took 0.36s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.93s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 694.75s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/fsm/pond_fsm.rpy", line 68: invalid syntax
+        def 
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.52s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 710.51s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.59s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 714.16s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.39s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 725.19s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.70s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 727.49s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.65s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 732.85s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.66s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 736.69s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 112: invalid syntax
+    pond_fsm.
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 2.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 744.45s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.62s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 1.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 747.46s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.82s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 1.31s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 761.74s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/main_loop.rpy", line 113: else clause expects a non-empty block.
+    else:
+         ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 763.40s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.49s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.90s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 772.38s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.55s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.86s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 775.10s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.52s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.90s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 780.61s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.49s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.97s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 786.25s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.66s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.92s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 796.62s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.59s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.93s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 800.68s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.49s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.86s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 806.08s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.52s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.90s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 810.07s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.13s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.50s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.85s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 815.54s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.88s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 822.76s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.52s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.90s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 828.35s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.92s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 835.49s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.66s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.90s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 844.33s
+Loading error handling took 0.03s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.61s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.96s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 977.55s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.56s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.96s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 980.56s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.17s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.65s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.86s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1320.20s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.43s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.78s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1547.74s
+Loading error handling took 0.03s
+Loading script took 0.36s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.46s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.84s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1556.24s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.46s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.78s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1569.27s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.90s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1571.53s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.41s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.84s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1576.58s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.41s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.81s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1585.42s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.48s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.82s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1800, 1012) drawable=(1800, 1012)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1669.08s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 411: end of line expected.
+    size gui.title_text_size)
+                            ^
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 1.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1798, 1011) drawable=(1798, 1011)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1670.93s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.87s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1798, 1011) drawable=(1798, 1011)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1676.36s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.42s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.78s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1796, 1010) drawable=(1796, 1010)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1686.30s
+Loading error handling took 0.02s
+Loading script took 0.33s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\themi\\AppData\\Roaming/RenPy/backups\\KoiCare':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.43s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.77s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.52'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1795, 1010) drawable=(1795, 1010)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1013) drawable=(1920, 1013)
 Maximum texture size: 4096x4096

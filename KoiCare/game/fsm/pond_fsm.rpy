@@ -61,3 +61,11 @@ init python:
 
         def get_fish_health_effect(self):
             return self.states[self.current_state]["effects"]["fish_health_effect"] 
+
+        def decreaseQuality(self, amount):
+            self.water_quality = max(0, self.water_quality - amount)
+            self.update_state()
+
+        def increaseQuality(self, amount):
+            self.water_quality = min(100, self.water_quality + amount)
+            self.update_state()

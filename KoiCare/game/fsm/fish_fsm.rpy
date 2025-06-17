@@ -60,3 +60,11 @@ init python:
 
         def is_alive(self):
             return self.health > 0 
+
+        def decreaseHealth(self, amount):
+            self.health = max(0, self.health - amount)
+            self.update_state()
+        
+        def increaseHealth(self, amount):
+            self.health = min(100, self.health + amount)
+            self.update_state()
